@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class BoxInputField extends StatelessWidget {
+class InputField extends StatelessWidget {
   final TextEditingController controller;
   final String placeholder;
   final Widget? leading;
@@ -13,7 +13,7 @@ class BoxInputField extends StatelessWidget {
     borderRadius: BorderRadius.circular(8),
   );
 
-  BoxInputField({
+  InputField({
     Key? key,
     required this.controller,
     required this.primaryColor,

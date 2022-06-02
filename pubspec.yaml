@@ -1,7 +1,7 @@
 name: ui_design
-description: A new Flutter package project.
+description: Design system for a flutter app.
 version: 0.0.1
-homepage:
+homepage: https://github.com/elouboy/ui_design
 
 environment:
   sdk: ">=2.16.1 <3.0.0"
