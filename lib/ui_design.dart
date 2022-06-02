@@ -1,7 +1,6 @@
 library ui_design;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/widgets/input_field.dart';
+export 'src/widgets/button.dart';
+export 'src/shared/styles.dart';
+export 'src/shared/ui_helpers.dart';
